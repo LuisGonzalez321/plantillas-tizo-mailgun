@@ -1,0 +1,47 @@
+.container-elements-head {
+  margin-top: 30px;
+}
+.container-elements-head .element-title {
+  display: flex;
+}
+.container-elements-head .element-title h3 {
+  padding-right: 10px;
+  padding-left: 30px;
+  margin: 0;
+  text-align: center;
+}
+.container-elements-head .element-title p {
+  margin: 0 !important;
+}
+
+.container-elements-body {
+  display: flex;
+  justify-content: flex-start;
+  background: white;
+  padding-left: 30px;
+}
+.container-elements-body .elements {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 0.5fr 1.5fr;
+  grid-column-gap: 0;
+  grid-row-gap: 0;
+}
+.container-elements-body .elements .item1 {
+  grid-area: 1/1/2/2;
+}
+.container-elements-body .elements .item2 {
+  grid-area: 1/2/2/3;
+}
+.container-elements-body .elements .item3 {
+  grid-area: 2/2/3/3;
+}
+.container-elements-body .elements .item4 {
+  grid-area: 2/1/3/2;
+}
+
+p {
+  margin: 1rem auto;
+}
+
+/*# sourceMappingURL=estilos.css.map */
